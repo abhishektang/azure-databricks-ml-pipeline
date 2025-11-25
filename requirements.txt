@@ -1,0 +1,22 @@
+# Azure Databricks ML Pipeline Dependencies
+
+# Core Data Science
+pandas>=2.1.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# Databricks & Azure
+databricks-cli>=0.18.0
+azure-cli>=2.80.0
+
+# Notebook Support (optional - for local development)
+jupyter>=1.0.0
+notebook>=7.0.0
+
+# Visualization (optional)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# PySpark (optional - if running locally)
+pyspark>=3.4.0

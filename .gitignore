@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Data files - exclude raw/intermediate data
+*.csv
+!train.csv
+!test_data.csv
+train_*_imputed.csv
+train_*_no_outliers*.csv
+train_nonull*.csv
+
+# Output files
+*.infs4203
+predictions.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Charts/Images (keep only if needed for docs)
+*.png
+!chart_*_pipeline_overview.png
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# JSON data files
+gridsearch_results*.json
+
+# Documentation (exclude duplicates/temporary docs)
+*_NOTES.md
+*_GUIDE.md
+*_QUICK_REFERENCE.md
+SLIDE_CONTENT.md
+TUNING_CHARTS_GUIDE.md
+PRESENTATION_GUIDE.md
+MODEL_ANALYSIS_COMPLETE.md
+GRIDSEARCH_VALIDATION_RESULTS.md
+PIPELINE_UPDATE_NOTES.md
+
+# Example/demo files
+*_example.py
+*_demo.py
+
+# Databricks specific (keep deployment scripts)
+*.session.sql
